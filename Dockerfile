@@ -52,7 +52,7 @@ RUN pip install -e . && \
     python -c "import sys;from rotkehlchen.db.dbhandler import detect_sqlcipher_version; version = detect_sqlcipher_version();sys.exit(0) if version == 4 else sys.exit(1)" && \
     pyinstaller --noconfirm --clean --distpath /tmp/dist rotkehlchen.spec
 
-FROM nginx:1.21 as runtime
+FROM nginx:1.28.0 as runtime
 
 LABEL maintainer="Rotki Solutions GmbH <info@rotki.com>"
 
