@@ -1,4 +1,4 @@
-gevent==21.8.0
+gevent==25.4.1
 greenlet==1.1.2
 gevent-websocket==0.10.1
 wsaccel==0.6.3  # recommended for acceleration of gevent-websocket. But abandoned.
@@ -28,4 +28,4 @@ marshmallow==3.14.0
 webargs==8.0.1
 
 #constraints
-setuptools==41.0.1  # constraint required by pyinstaller==3.5.0
+setuptools==78.1.1
