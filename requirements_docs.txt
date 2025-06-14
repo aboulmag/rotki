@@ -6,3 +6,4 @@ sphinxcontrib-httpdomain==1.8.0
 sphinxcontrib-httpexample-rotki==0.1.2
 # This is our fork of releases in order to handle https://github.com/rotki/rotki/issues/704
 rotki-releases
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
