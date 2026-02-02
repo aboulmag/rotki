@@ -29,3 +29,4 @@ webargs==8.0.1
 
 #constraints
 setuptools==41.0.1  # constraint required by pyinstaller==3.5.0
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
